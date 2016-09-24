@@ -5,14 +5,21 @@
     <title>forms</title>
 </head>
 <body>
+    
+    <form action="https://formspree.io/your@email.com"
+      method="POST">
     <form>
         <label for="name">Name:</label>
         <input type="text" name="name" id="name"/>
         <br>
         <label for="email">Email:</label>
         <input type="email" name="email" id="email">
-        
+        <label for="comments">Comments:</label>
+        <textarea name="comments" id="comments">
+            </textarea>
+            <br>
+            <input type="submit" name="submit">
         </form>
-    </form>
+   
 </body>
 </html>
